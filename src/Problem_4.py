@@ -14,11 +14,12 @@ def findPalindorme(digit):
     while(num1>minNum):
         num2=num1
         while(num2>minNum):
-            if(num2%10 == 1 or num2%10 == 3 or num2%10 == 7 or num2%10 == 9): 
+            d=num2%10
+            if(d == 1 or d == 3 or d == 7 or d == 9): 
                 tempNum=num1*num2 
                 if(str(tempNum) == str(tempNum)[::-1]):
                     print(tempNum, " is palindrome!")
-                    return tempNum
+                    return tempNum, num1, num2
             num2-=2
         num1-=2 
         
