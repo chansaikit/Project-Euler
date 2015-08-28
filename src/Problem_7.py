@@ -5,6 +5,7 @@ Created on Aug 26, 2015
 '''
 import math
 import time
+start_time = time.time()    
 primeList=[2]
 def getPrime(pos):  
     i=2
