@@ -6,7 +6,6 @@ Created on Aug 27, 2015
 
 
 import time 
-import itertools
 start_time = time.time()    
 
 def sumPrime(limit):   
