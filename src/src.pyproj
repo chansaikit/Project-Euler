@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7881a1c1-c13d-463b-8099-a4a87481e47e}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>Problem_19.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId>{2af0f10d-7135-4994-9156-5d01c9c11b7e}</InterpreterId>
+    <InterpreterVersion>2.7</InterpreterVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+    <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Problem_1.py" />
+    <Compile Include="Problem_10.py" />
+    <Compile Include="Problem_11.py" />
+    <Compile Include="Problem_12.py" />
+    <Compile Include="Problem_13.py" />
+    <Compile Include="Problem_14.py" />
+    <Compile Include="Problem_15.py" />
+    <Compile Include="Problem_16.py" />
+    <Compile Include="Problem_18.py" />
+    <Compile Include="Problem_19.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Problem_2.py" />
+    <Compile Include="Problem_3.py" />
+    <Compile Include="Problem_4.py" />
+    <Compile Include="Problem_5.py" />
+    <Compile Include="Problem_6.py" />
+    <Compile Include="Problem_67.py" />
+    <Compile Include="Problem_7.py" />
+    <Compile Include="Problem_8.py" />
+    <Compile Include="Problem_9.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="{2af0f10d-7135-4994-9156-5d01c9c11b7e}\2.7" />
+  </ItemGroup>
+  <Import Project="$(PtvsTargetsFile)" Condition="Exists($(PtvsTargetsFile))" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="!Exists($(PtvsTargetsFile))" />
+</Project>
