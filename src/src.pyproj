@@ -34,6 +34,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Problem_2.py" />
+    <Compile Include="Problem_20.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Problem_3.py" />
     <Compile Include="Problem_4.py" />
     <Compile Include="Problem_5.py" />
